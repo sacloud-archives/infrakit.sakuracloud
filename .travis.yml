@@ -1,0 +1,40 @@
+sudo: required
+services:
+- docker
+language: go
+go:
+- 1.8
+env:
+  global:
+  - PATH=/home/travis/gopath/bin:$PATH DEBIAN_FRONTEND=noninteractive
+before_install:
+- go get -u github.com/golang/lint/golint
+script:
+- make test
+- make docker-build
+before_deploy:
+- go get github.com/aktau/github-release
+- go install github.com/sacloud/usacloud
+- mkdir -p ~/bin
+- git clone https://github.com/github/hub.git && cd hub && script/build -o ~/bin/hub
+  && cd ..
+- echo $TRAVIS_BRANCH
+- git config --add remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+- git fetch
+- git checkout master || git checkout -b master origin/master
+- git checkout $TRAVIS_BRANCH
+- git fetch --depth=1000
+- git fetch --tags --depth=1000 || true
+deploy:
+- provider: script
+  script: scripts/release.pl --task=upload-to-github-release && scripts/release.pl
+    --task=upload-master-to-github-release
+  skip_cleanup: true
+  on:
+    branch: master
+- provider: script
+  script: scripts/release.pl --task=create-pullrequest --current-branch=$TRAVIS_BRANCH
+  skip_cleanup: true
+  on:
+    all_branches: true
+    condition: "$TRAVIS_BRANCH =~ ^bump-version-.*$"

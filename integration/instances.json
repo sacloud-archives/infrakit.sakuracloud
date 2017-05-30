@@ -1,0 +1,26 @@
+{
+  "ID": "instances",
+  "Properties": {
+    "Allocation": {
+      "Size": 2
+    },
+    "Instance": {
+      "Plugin": "instance-sakuracloud",
+      "Properties": {
+        "NamePrefix": "infrakit-sakuracloud",
+        "Tags": ["ci-infrakit-sakuracloud"],
+        "OSType": "centos",
+        "SSHKeyPublicKeyFiles": ["/infrakit/id_rsa.pub"],
+        "DisablePasswordAuth": true
+      }
+    },
+    "Flavor": {
+      "Plugin": "flavor-vanilla",
+      "Properties": {
+        "Init": [
+          "sh -c \"echo 'Hello, World' > /hello\""
+        ]
+      }
+    }
+  }
+}
