@@ -41,128 +41,134 @@
 		{
 			"checksumSHA1": "unYq8prfUybUhzKv+AKn5HHcrDA=",
 			"path": "github.com/docker/infrakit/pkg/broker/server",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
-			"checksumSHA1": "cfhWncpIj/C4hm1cVxLMnDhNkcc=",
+			"checksumSHA1": "XiEzwpwskXfpug4sIFrjCKcYNek=",
 			"path": "github.com/docker/infrakit/pkg/cli",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
+		},
+		{
+			"checksumSHA1": "T1RHnxqq/HQeNVlJKws9Bn8nxsE=",
+			"path": "github.com/docker/infrakit/pkg/cli/backend",
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "j6TJDDUcmGx5QYJxNAhMR44XNpU=",
 			"path": "github.com/docker/infrakit/pkg/discovery",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "4zdL369FA+C05GDAdaX6I/NELdg=",
 			"path": "github.com/docker/infrakit/pkg/discovery/local",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "vJAvErxhWnGL3K4oiUR2WAIm400=",
 			"path": "github.com/docker/infrakit/pkg/log",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "pWlFvXxra8eWN9koM6pK86HJ0i0=",
 			"path": "github.com/docker/infrakit/pkg/plugin",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "Ca9t/PSj5IRpq5dqcwWD2Wun/so=",
 			"path": "github.com/docker/infrakit/pkg/plugin/metadata/template",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "vbQY8rMHWPeVLGXrGX3ct0qOsk4=",
 			"path": "github.com/docker/infrakit/pkg/rpc",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "58uQcbY6M2nit+eiIPUJaMVgE/o=",
 			"path": "github.com/docker/infrakit/pkg/rpc/client",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "BF4CA3/ySTLG8R6pUNIY4XDImOY=",
 			"path": "github.com/docker/infrakit/pkg/rpc/group",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
-			"checksumSHA1": "bL9kTdx3HUcy89sl4xM4bD2+mwQ=",
+			"checksumSHA1": "6yj/VFHIDl9+qEHKdolKSbvL23E=",
 			"path": "github.com/docker/infrakit/pkg/rpc/instance",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "T6zTvGRqAM0qPkSgWI6pyAD4UH4=",
 			"path": "github.com/docker/infrakit/pkg/rpc/metadata",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "+LN494zD8pNI1hHRpTvZPjJMYuk=",
 			"path": "github.com/docker/infrakit/pkg/rpc/server",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "kTd56co3jybsHjrxXF6GpwB1pAk=",
 			"path": "github.com/docker/infrakit/pkg/spi",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "UK91LmDlXt53GzVnlgG0y8DIn5U=",
 			"path": "github.com/docker/infrakit/pkg/spi/event",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "k3pTZJv6J0WXt+e/yIvY/65zdg4=",
 			"path": "github.com/docker/infrakit/pkg/spi/group",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
-			"checksumSHA1": "F5c2t6zZBQ443O2kPJMY97jMAM8=",
+			"checksumSHA1": "CFx0soCllOeLHiKOcbwqaqQjFRY=",
 			"path": "github.com/docker/infrakit/pkg/spi/instance",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "9/YV3MwKyAzIYezxJXz0RKOMpmI=",
 			"path": "github.com/docker/infrakit/pkg/spi/metadata",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
-			"checksumSHA1": "3bYMjvZ9E/eJ3mRJ8+PKK5oW7NE=",
+			"checksumSHA1": "3HhiOnTGybrn++LZYKmbWDvcfgc=",
 			"path": "github.com/docker/infrakit/pkg/template",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
-			"checksumSHA1": "02HLoURMf9e0zTuIb/u8THcG7Mo=",
+			"checksumSHA1": "d+mxmGybuoeDTbapfZF4GIvjsm8=",
 			"path": "github.com/docker/infrakit/pkg/types",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "R2QdqOlb3PWz/Q3x72d5+ExCEXs=",
 			"path": "github.com/docker/infrakit/pkg/util/exec",
-			"revision": "9523423600ff100f70e314a424805f84e18bbe7d",
-			"revisionTime": "2017-05-26T03:00:28Z"
+			"revision": "381561006d9fca919f27c95d88c408019027e29e",
+			"revisionTime": "2017-06-15T17:43:51Z"
 		},
 		{
 			"checksumSHA1": "ImX1uv6O09ggFeBPUJJ2nu7MPSA=",
