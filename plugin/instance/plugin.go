@@ -127,7 +127,7 @@ func (p *plugin) Provision(spec instance.Spec) (*instance.ID, error) {
 }
 
 // Destroy terminates an existing instance.
-func (p *plugin) Destroy(instance instance.ID) error {
+func (p *plugin) Destroy(instance instance.ID, ctx instance.Context) error {
 	id, err := strconv.ParseInt(string(instance), 10, 64)
 	if err != nil {
 		return err
